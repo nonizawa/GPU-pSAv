@@ -1,6 +1,6 @@
 # GPU-pSAv (GPU-accelerated p-bit-based simulated annealing with device variability)
 
-[![GitHub license](https://img.shields.io/github/license/nonizawa/GPU-pSAv)](https://github.com/nonizawa/GPU-pSAv/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/nonizawa/GPU-pSAv)](https://github.com/nonizawa/GPU-pSAv/LICENSE)
 
 Probabilistic computing based on probabilistic bits (p-bits) offers a more efficient approach than conventional CMOS logic and has shown great potential for solving complex problems, such as simulated annealing and machine learning. However, the physical realization of p-bits, often using emerging devices like Magnetic Tunnel Junctions (MTJs), introduces variability in device characteristics. In this article, we present an open-source, GPU-accelerated simulated annealing algorithm, developed using Python and PyCUDA, tailored for large-scale p-bit computing. By incorporating a model that accounts for device variability, our framework enables simulation and evaluation of how different types of variability affect computational performance. Compared to CPU implementations, our GPU-based approach demonstrates a two-order magnitude speedup when applied to the MAX-CUT benchmark, which includes problems ranging from 800 to 20,000 nodes. Our open-source solution aims to provide a scalable and accessible tool for the research community, facilitating advancements in probabilistic computing and optimization across various fields.
 
