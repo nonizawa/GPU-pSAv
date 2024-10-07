@@ -48,9 +48,9 @@ Here ia the options.
 
 - `--tau`:  A pseudo inverse temperature is increased every tau cycle
 
-- `--config`:  A configuration for pSA algorithms: 1 for pSA, 2 for TApSA, and 3 for SpSA
+- `--config`:  A configuration for pSA algorithms: 2 for pSA, 3 for TApSA, and 4 for SpSA
 
-- `--param`: Hyperparameters for pSA algorithsms: 1 for pSA, TApSA< and SpSA 
+- `--param`: Hyperparameters for pSA algorithsms: 2 for pSA, TApSA< and SpSA 
 
 - `--mean_range`: The size of time window for averaing (used for only TApSA)
 
@@ -66,7 +66,7 @@ python3 gpu_MAXCUT_var.py  --res $RES --l_scale $l_scale --d_scale $d_scale --n_
 
 Here ia the options.
 
-- `--res`: Time resolution of updaing the states of p-bits
+- `--res`: Time resolution of 1 cycle of updaing the states of p-bits
 
 - `--l_scale`: A standard deviation of lambda that represents the input sensitivity of p-bits
 

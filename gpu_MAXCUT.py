@@ -23,7 +23,7 @@ def parse_arguments():
     parser.add_argument('--trial', type=int, default=100, help="Number of trials (default: 100)")
     parser.add_argument('--tau', type=int, default=1, help="tau (default: 1)")
     parser.add_argument('--thread', type=int, default=32, help="Number of threads (default: 32)")
-    parser.add_argument('--config', type=int, default=1, help="Configuration (default: 1)")
+    parser.add_argument('--config', type=int, default=2, help="Configuration (default: 2)")
     parser.add_argument('--unique', type=int, default=1, help="Unique noise magnitude (default: 1)")
     parser.add_argument('--mean_range', type=int, default=4, help="Configuration (default: 1)")
     parser.add_argument('--stall_prop', type=float, default=0.5, help='stalled prop値')
